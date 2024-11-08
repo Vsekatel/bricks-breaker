@@ -1,0 +1,23 @@
+/* Устанавливаем нулевые отступы и границы для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Устанавливаем размер и центрируем canvas */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 5px solid #8934eb;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}

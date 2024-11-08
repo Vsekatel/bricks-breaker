@@ -1,0 +1,69 @@
+{
+    "levels": [
+        {
+            "id": "1",
+            "rows": [
+                {
+                    "isInitial": true,
+                    "bricks": [
+                        { "x": 0, "strength": 10 },
+                        { "x": 2, "strength": 10 },
+                        { "x": 4, "strength": 10 },
+                        { "x": 6, "strength": 10 },
+                        { "x": 8, "strength": 10 }
+                    ]
+                },
+                {
+                    "isInitial": true,
+                    "bricks": [
+                        { "x": 1, "strength": 10 },
+                        { "x": 3, "strength": 10 },
+                        { "x": 5, "strength": 10 },
+                        { "x": 7, "strength": 10 }
+                    ]
+                },
+                {
+                    "isInitial": false,
+                    "bricks": [
+                        { "x": 2, "strength": 10 },
+                        { "x": 3, "strength": 10 },
+                        { "x": 4, "strength": 10 },
+                        { "x": 5, "strength": 10 },
+                        { "x": 6, "strength": 10 },
+                        { "x": 7, "strength": 10 }
+                    ]
+                },
+                {
+                    "isInitial": false,
+                    "bricks": [
+                        { "x": 3, "strength": 10 },
+                        { "x": 4, "strength": 10 },
+                        { "x": 5, "strength": 10 },
+                        { "x": 6, "strength": 10 }
+                    ]
+                },
+                {
+                    "isInitial": false,
+                    "bricks": [
+                        { "x": 4, "strength": 10 },
+                        { "x": 5, "strength": 10 }
+                    ]
+                },
+                {
+                    "isInitial": false,
+                    "bricks": [
+                        { "x": 0, "strength": 10 },
+                        { "x": 1, "strength": 10 },
+                        { "x": 2, "strength": 10 },
+                        { "x": 3, "strength": 10 },
+                        { "x": 4, "strength": 10 },
+                        { "x": 5, "strength": 10 },
+                        { "x": 6, "strength": 10 },
+                        { "x": 7, "strength": 10 },
+                        { "x": 8, "strength": 10 }
+                    ]
+                }
+            ]
+        }
+    ]
+}
