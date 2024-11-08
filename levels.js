@@ -1,4 +1,4 @@
-const fs = require('fs');
+import { readFileSync } from 'fs';
 
 const levels = [];
 
@@ -40,7 +40,7 @@ class Level {
     }
 }
 function createLevelsFromJSON(levelsData) {
-    const data = JSON.parse(fs.readFileSync('levels.json', 'utf8'));
+    const data = JSON.parse(readFileSync('levels.json', 'utf8'));
     for (let i = 0; i < data.levels.length; i++) {
         const levelData = data.levels[i];
         levels.push(new Level(levelData));
