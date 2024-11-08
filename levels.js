@@ -1,5 +1,3 @@
-import { readFileSync } from 'fs';
-
 const levels = [];
 
 class Brick {
@@ -39,8 +37,9 @@ class Level {
         return counter;
     }
 }
-function createLevelsFromJSON(levelsData) {
-    const data = JSON.parse(readFileSync('levels.json', 'utf8'));
+async function createLevelsFromJSON(url) {
+    const response = await fetch(url);
+    const data = await response.json();
     for (let i = 0; i < data.levels.length; i++) {
         const levelData = data.levels[i];
         levels.push(new Level(levelData));
@@ -49,4 +48,4 @@ function createLevelsFromJSON(levelsData) {
 
 
 // Инициализация уровней
-createLevelsFromJSON(levelsData);
+createLevelsFromJSON('levels.json');
